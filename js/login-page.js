@@ -27,7 +27,7 @@ const loginUser = () => {
     if(passCorrect){
     alert("CORRECT! going to next page!")
     localStorage.setItem("emailAddress", email)    
-    window.location.href="airBnB.html"
+    window.location.href="index.html"
   } else {
     alert("Password is wrooooong!!!")
   }
@@ -46,7 +46,7 @@ const loginUser = () => {
     
     // b) send user to next page
 //    alert("CORRECT! going to next page!")
-//    window.location.href="airBnB.html"
+//    window.location.href="index.html"
 //  
 //  else {
     // 4. if wrong, show error message

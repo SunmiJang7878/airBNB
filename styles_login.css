@@ -199,9 +199,9 @@ textarea{
 }
 
 tbody{
-    display: table-row;
+/*    display: table-row;*/
     vertical-align: center;
-    padding-left: 10px;
+/*    padding-left: 10px;*/
 }
 
 #datepicker1 table * {
