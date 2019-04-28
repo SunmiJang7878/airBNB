@@ -12,3 +12,5 @@ We can input one of the places name and see the result.
 If you choose one of the rooms, it moves to the detail page of the room that has been chosen.
 And in that page we can book the room and there’s also datepicker’s working we can see, and after booking, there will be an alert that a notification of the booking.
 if we loged-in, we can see the email address in the notification
+
+N01318905 Sunmi Jang
