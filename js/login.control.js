@@ -9,6 +9,6 @@ if(localStorage.getItem('emailAddress')=== null || localStorage.getItem('emailAd
   
   $("body").delegate("#logout_btn", "click", function(){
        localStorage.setItem("emailAddress", "")
-  window.location.href= "airBnB.html";
+  window.location.href= "index.html";
   });
 });

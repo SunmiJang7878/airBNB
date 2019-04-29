@@ -37,24 +37,16 @@ const loginUser = () => {
   }
   
   
-  
   // 2. check if email/password is correct
-//  if (email == "jenysm7878@gmail.com" && password == "1234") {
-    // 3. if correct, 
-    // a) save email to local storage
-//    localStorage.setItem("emailAddress", email)
-    
-    // b) send user to next page
-//    alert("CORRECT! going to next page!")
-//    window.location.href="index.html"
-//  
-//  else {
-    // 4. if wrong, show error message
-//    alert("WRONG");
-//    document.getElementById("results").innerHTML = "Sorry, wrong username or password."
-//    
-//  } 
-//}
+  // 3. if correct, 
+  // a) save email to local storage
+  // b) send user to next page
+  //  alert("CORRECT! going to next page!")
+  //  window.location.href="index.html"
+  // 4. if wrong, show error message
+  //  alert("WRONG");
+  //  document.getElementById("results").innerHTML =   //      "Sorry, wrong username or password."   
+
 
 const insertUser = () => {
    let email = document.getElementById("email").value
