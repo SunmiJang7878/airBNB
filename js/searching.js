@@ -23,9 +23,11 @@ const searchingButtonPressed = () => {
     if(newdate1 > newdate2) {
    // show message
       alert("Your initial date cannot be bigger than your final date!")
-    }else {
-//      let x = localStorage.getItem("emailAddress")
-   
+    } else {
+      let currentDate = new Date().getTime();
+      if (newdate1 < currentDate || newdate2 < currentDate) {
+        alert("No date can be smaller than today's date!")
+    } else {
     // show alert box
     // confrimation message
     // ----------------------
@@ -38,5 +40,5 @@ const searchingButtonPressed = () => {
   }
  }
 }
-
+}
 document.getElementById("searchingButton").addEventListener("click", searchingButtonPressed)
